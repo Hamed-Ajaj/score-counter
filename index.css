@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    text-align: center;
+    background: lightblue;
+}
+
+#home-score {
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+}
+#guest-score{
+      background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    background: none;
+    transition: 0.5s;
+}
+button:hover{
+    background: white;
+}
+button.restart-btn{
+    position: relative;
+    right: 25vw;
+    background: limegreen;
+    transition: 0.5s;
+}
+.restart-btn:hover{
+    background: #F94F6D;
+}
+
+
+
